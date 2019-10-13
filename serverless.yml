@@ -57,6 +57,9 @@ provider:
 #    - exclude-me.js
 #    - exclude-me-dir/**
 
+plugins:
+  - serverless-yaml-local-cloudformation-plugin
+
 functions:
   hello:
     handler: handler.hello
