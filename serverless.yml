@@ -20,6 +20,11 @@ service: barebones-serverless-framework-aws
 # Check out our docs for more details
 # frameworkVersion: "=X.X.X"
 
+custom:
+  print-resolved:
+    depth: 2
+    path: ''
+
 provider:
   name: aws
   runtime: nodejs10.x
@@ -59,6 +64,7 @@ provider:
 
 plugins:
   - serverless-yaml-local-cloudformation-plugin
+  - serverless-print-resolved-plugin
 
 functions:
   hello:

@@ -5,6 +5,7 @@
   "dependencies": {},
   "devDependencies": {
     "serverless": "^1.54.0",
+    "serverless-print-resolved-plugin": "0.0.3",
     "serverless-yaml-local-cloudformation-plugin": "0.0.1"
   },
   "scripts": {
