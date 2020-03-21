@@ -1,0 +1,5 @@
+Resources:
+  LoggingBucket:
+    Type: AWS::S3::Bucket
+  SomeBucket:
+    Type: AWS::S3::Bucket
